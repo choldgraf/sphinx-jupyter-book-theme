@@ -35,7 +35,9 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     "myst_nb",
-    "myst_parser"
+    "myst_parser",
+    "sphinx_copybutton",
+    "sphinx_togglebutton",
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -61,11 +63,5 @@ html_logo = "logo.png"
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
-
-# -- Auto-convert markdown pages to demo --------------------------------------
-import recommonmark
-from recommonmark.transform import AutoStructify
-
-def setup(app):
-    # app.add_transform(AutoStructify)
-    pass
+# Config
+sphinx_notebook_require_url = None

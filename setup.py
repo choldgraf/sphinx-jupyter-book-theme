@@ -30,6 +30,7 @@ setup(
         ),
         "ipython",
         "ipywidgets",
-        "ruamel_yaml"
+        "sphinx-copybutton",
+        "sphinx-togglebutton"
     ],
 )

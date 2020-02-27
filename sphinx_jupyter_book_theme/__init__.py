@@ -6,7 +6,6 @@ Adapted for the pandas documentation.
 import os
 
 from pathlib import Path
-from ruamel.yaml import YAML
 import sphinx.builders.html
 
 from .bootstrap_html_translator import BootstrapHTML5Translator

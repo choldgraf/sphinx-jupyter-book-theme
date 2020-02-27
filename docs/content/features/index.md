@@ -3,6 +3,7 @@
 ```{toctree}
 notebooks.ipynb
 layout.ipynb
+hiding.ipynb
 interact.ipynb
 frontmatter.md
 ```
